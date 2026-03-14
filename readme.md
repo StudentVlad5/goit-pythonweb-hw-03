@@ -49,15 +49,11 @@ Plaintext
 Running Locally
 Install dependencies:
 
-Bash
-
 ```
 pip install jinja2
 ```
 
 Start the server:
-
-Bash
 
 ```
 python main.py
@@ -117,14 +113,14 @@ JSON
 
 ## Assignment Requirements Checklist
 
-[x] HTML pages for index.html and message.html.
+- [x] HTML pages for index.html and message.html.
 
-[x] Handling of static resources (style.css, logo.png).
+- [x] Handling of static resources (style.css, logo.png).
 
-[x] Custom 404 error page (error.html).
+- [x] Custom 404 error page (error.html).
 
-[x] Form data conversion to JSON with timestamps.
+- [x] Form data conversion to JSON with timestamps.
 
-[x] /read route using Jinja2 to display all messages.
+- [x] /read route using Jinja2 to display all messages.
 
-[x] Dockerfile implementation with Volumes support.
+- [x] Dockerfile implementation with Volumes support.
